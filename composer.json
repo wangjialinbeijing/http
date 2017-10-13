@@ -1,0 +1,21 @@
+{
+    "name": "wangjialin/http",
+    "description": "CURL HTTP",
+    "type": "library",
+    "require": {
+        "php": ">=5.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wangjialinbeijing",
+            "email": "wangjialin.bj@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "wangjialin\\http\\": "src/http/lib"
+        }
+    }
+}
